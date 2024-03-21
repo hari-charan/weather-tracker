@@ -80,10 +80,6 @@ const HistoryPage = () => {
     series.strokes.template.setAll({
       strokeWidth: 2
     });
-    // series.fills.template.setAll({
-    //   fillOpacity: 0.5,
-    //   visible: true,
-    // });
     series.data.setAll(data);
   };
 
